@@ -4,3 +4,552 @@
 2024-04-30 12:56:26,159 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
 2024-04-30 12:56:26,851 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-04-30 12:56:30,113 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 16:12:05,050 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 16:12:07,105 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 16:14:40,927 [WARNING] in django.request: Not Found: /ru/auth/orders/
+2024-04-30 16:33:02,141 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 16:34:10,719 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 16:38:08,951 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 16:38:13,410 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 16:38:58,387 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 16:50:34,185 [WARNING] in django.request: Not Found: /ru/auth/products/
+2024-04-30 16:51:04,923 [WARNING] in django.request: Not Found: /ru/auth/orders/
+2024-04-30 16:59:08,713 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 16:59:09,600 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 16:59:11,671 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:01:23,525 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:01:24,296 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:02:52,010 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:02:52,882 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:05:17,794 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:05:18,603 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:05:20,745 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:06:23,195 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:06:24,005 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:06:35,210 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 17:06:36,140 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:06:38,083 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:08:04,070 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 17:08:04,940 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:08:06,600 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:09:48,732 [WARNING] in django.request: Not Found: /ru/shop/products/create/
+2024-04-30 17:11:37,409 [WARNING] in django.request: Not Found: /ru/shop/creatre/
+2024-04-30 17:26:41,066 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:26:42,108 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:31:01,640 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:31:02,491 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:31:04,467 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:33:01,549 [ERROR] in django.request: Internal Server Error: /shop/create/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'shop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'shop' is not a registered namespace
+2024-04-30 17:33:29,124 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 17:33:29,852 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:33:31,635 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:34:00,145 [ERROR] in django.request: Internal Server Error: /shop/create/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'shop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'shop' is not a registered namespace
+2024-04-30 17:34:26,370 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:34:28,563 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:34:46,827 [ERROR] in django.request: Internal Server Error: /ru/shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'products-list' not found. 'products-list' is not a valid view function or pattern name.
+2024-04-30 17:35:06,216 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 17:35:06,986 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:35:08,691 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:35:19,329 [ERROR] in django.request: Internal Server Error: /shop/create/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'shop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'shop' is not a registered namespace
+2024-04-30 17:37:31,469 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 17:37:32,348 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:38:51,689 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:38:53,364 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:42:33,099 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:42:33,949 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:42:35,956 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:45:21,581 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:45:22,451 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:45:24,624 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:46:21,235 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:46:22,147 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:46:23,757 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:47:50,876 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:47:51,706 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:48:46,900 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:48:48,022 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:50:11,299 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:50:12,090 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:50:13,916 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:50:33,215 [WARNING] in django.security.csrf: Forbidden (CSRF token from POST incorrect.): /auth/login/
+2024-04-30 17:51:31,641 [ERROR] in django.request: Internal Server Error: /shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp/order_list.html
+2024-04-30 17:51:43,804 [ERROR] in django.request: Internal Server Error: /shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp/order_list.html
+2024-04-30 17:55:28,296 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 17:55:29,102 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:55:30,871 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 17:57:29,248 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 17:57:31,146 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:00:04,236 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:00:05,006 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:00:08,135 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:00:31,371 [WARNING] in django.request: Not Found: /ru/shop
+2024-04-30 18:01:32,269 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:01:33,029 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:01:35,161 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:11:30,452 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:11:33,984 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:12:19,272 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 18:12:20,202 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:12:21,882 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:14:32,571 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-04-30 18:14:33,364 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:16:26,385 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:16:27,152 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:16:29,053 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:17:41,955 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:17:42,747 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:17:44,563 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:18:02,047 [ERROR] in django.request: Internal Server Error: /shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\list.py", line 36, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: OrdersListView is missing a QuerySet. Define OrdersListView.model, OrdersListView.queryset, or override OrdersListView.get_queryset().
+2024-04-30 18:19:09,697 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:19:10,448 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:19:21,947 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:19:22,951 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:19:39,762 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:19:40,638 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:19:42,432 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:20:07,037 [ERROR] in django.request: Internal Server Error: /shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py", line 84, in get_queryset
+    return Order.objects.filter(status='completed')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'status' into field. Choices are: color, created_at, delivery_address, id, products, promocode, user, user_id
+2024-04-30 18:20:54,039 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:20:54,814 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:20:56,368 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:21:13,619 [ERROR] in django.request: Internal Server Error: /shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp/order_list.html
+2024-04-30 18:21:48,736 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:21:49,578 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:21:51,311 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:22:08,873 [ERROR] in django.request: Internal Server Error: /shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp/order_list.html
+2024-04-30 18:23:03,726 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:23:04,508 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:23:07,654 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:23:25,732 [ERROR] in django.request: Internal Server Error: /shop/order/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp/order_list.html
+2024-04-30 18:26:37,453 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:26:38,299 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:26:40,094 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:27:50,759 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:27:52,563 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:32:19,436 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:32:20,304 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:32:22,737 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:33:00,909 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:33:01,619 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:33:03,476 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:33:55,214 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:33:58,107 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:34:00,616 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:35:37,648 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:35:40,503 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:36:28,219 [ERROR] in django.request: Internal Server Error: /shop/create/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'shop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'shop' is not a registered namespace
+2024-04-30 18:36:52,283 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:36:55,091 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:42:40,411 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:42:41,223 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:42:42,943 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:44:14,452 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:44:15,312 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:44:17,172 [WARNING] in django.request: Not Found: /ru/
+2024-04-30 18:45:48,848 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 18:45:49,788 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 18:45:51,208 [WARNING] in django.request: Not Found: /ru/
