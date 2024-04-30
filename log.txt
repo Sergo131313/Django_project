@@ -1,0 +1,6 @@
+2024-04-27 23:17:27,592 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 23:17:55,120 [INFO] in django.utils.autoreload: /mnt/c/Users/user/MySitee/MySitee/mysite/mysite/settings.py changed, reloading.
+2024-04-30 12:56:01,513 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 12:56:26,159 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-04-30 12:56:26,851 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-30 12:56:30,113 [WARNING] in django.request: Not Found: /ru/
