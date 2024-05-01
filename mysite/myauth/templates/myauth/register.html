@@ -1,3 +1,21 @@
+
+<!--This code is a Django template used for the registration page. It consists of two main blocks: `title` and `body`. Here's a breakdown of the code and its purpose:-->
+
+<!--1. `{% block title %} Register {% endblock %}`: This block is used to define the title of the page, which in this case is "Register". It allows the template to be extended, and the title to be customized in child templates.-->
+
+<!--2. `{% block body %}` and `{% endblock %}`: These blocks define the main content of the page. Inside the `body` block, there is an HTML `<h1>` tag containing the text "Register", indicating the title of the registration section.-->
+
+<!--3. `<form method="post">`: This HTML form element is used to collect user input for registration. The `method="post"` attribute specifies that the form data will be submitted using the HTTP POST method.-->
+
+<!--4. `{% csrf_token %}`: This template tag generates a CSRF (Cross-Site Request Forgery) token, which helps prevent CSRF attacks by validating that the form submission originates from the correct site.-->
+
+<!--5. `{{ form.as_p }}`: This Django template variable renders the registration form fields as HTML `<p>` elements. It automatically generates the appropriate HTML for each form field based on its type and attributes.-->
+
+<!--6. `<input type="submit" value="Register">`: This HTML input element represents a submit button that users can click to submit the registration form.-->
+
+<!--The purpose of this template is to provide a user-friendly interface for registering new users. It renders a registration form with appropriate fields and handles form submission securely with CSRF protection.-->
+
+
 {% block title %}
  Register
 {% endblock %}

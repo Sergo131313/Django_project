@@ -1,26 +1,40 @@
+
+This HTML template is used to display the details of a specific product in the shop application.
+
+Description:
+    - It defines a block for the title, indicating that the page displays details of a specific product.
+    - Within the body block, it displays a heading indicating the name of the product.
+    - It presents various details of the product, such as description, price, discount, and archival status.
+    - If the product has a preview image, it displays the image along with its name.
+    - It includes links to navigate back to the list of products, update the product, and archive the product.
+
+Note: The context variable 'product' should be passed to this template, which represents the specific product to be displayed.
+
+
+<!-- Template: shopapp/product_detail.html -->
 {% block title %}
-   Product #{{product.pk}}
+   Product #{{ product.pk }}
 {% endblock %}
 
 {% block body %}
    <h1> Product <strong>{{ product.name }}</strong></h1>
    <div>
-       <div> Description: <em>{{ product.description}}</em></div>
+       <div> Description: <em>{{ product.description }}</em></div>
        <div>Price: {{ product.price }} $</div>
-       <div>Discount: {{product.discount }}%</div>
-       <div>Archived: {{product.is_archived}}</div>
+       <div>Discount: {{ product.discount }}%</div>
+       <div>Archived: {{ product.is_archived }}</div>
 
-        {% if product.preview %}
-                        <img src="{{product.preview.url}}" alt="{{product.preview.name}}" width="500" height="300">
-                {% endif %}
+       {% if product.preview %}
+           <img src="{{ product.preview.url }}" alt="{{ product.preview.name }}" width="500" height="300">
+       {% endif %}
    </div>
-  <div>
-      <a href="{% url 'shopapp:products-list' %}">Back to products </a>
-  </div>
- <div>
-        <a href="{% url 'shopapp:update_product' pk=product.pk %}">Update product</a>
-    </div>
- <div>
-        <a href="{% url 'shopapp:delete_product' pk=product.pk %}">Archive product</a>
-    </div>
+   <div>
+       <a href="{% url 'shopapp:products-list' %}">Back to products</a>
+   </div>
+   <div>
+       <a href="{% url 'shopapp:update_product' pk=product.pk %}">Update product</a>
+   </div>
+   <div>
+       <a href="{% url 'shopapp:delete_product' pk=product.pk %}">Archive product</a>
+   </div>
 {% endblock %}

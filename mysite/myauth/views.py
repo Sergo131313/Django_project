@@ -1,3 +1,23 @@
+
+"""
+This Python script defines various views and functionality related to user authentication and password management.
+
+Description:
+    - It imports necessary modules and classes from Django.
+    - It defines a RegisterView class based on CreateView to handle user registration.
+        - It specifies the form_class, template_name, and success_url attributes.
+        - It overrides the form_valid method to create a Profile object associated with the newly registered user and perform automatic login.
+    - It defines a login_view function to handle user login.
+    - It defines a logout_view function to handle user logout.
+    - It defines a MyLogoutView class based on LogoutView to handle user logout with redirection.
+    - It defines a change_password function to handle password change functionality.
+    - It defines various views for password reset functionality.
+    - Each view is associated with a specific template for rendering.
+
+Note: This script provides functionality for user registration, login, logout, password change, and password reset. It utilizes Django's built-in authentication forms and views for managing user authentication and password-related tasks.
+
+"""
+
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
 from django.contrib.auth.forms import UserCreationForm, PasswordChangeForm, PasswordResetForm

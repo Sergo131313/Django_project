@@ -1,20 +1,32 @@
-{% block title%}
-  Order #{{object.pk}}
+
+This HTML template is used to display details of a single order in the shop application.
+
+Description:
+    - It extends the base template 'shopapp/base.html'.
+    - It defines a block for the title, which includes the order number (pk).
+    - Within the body block, it displays the order details including delivery address, promocode, and color.
+    - It includes hyperlinks to navigate back to the orders list and to update the current order.
+
+Note: The context variable 'object' should be passed to this template containing the order object to be displayed.
+
+
+<!-- Template: shopapp/order_details.html -->
+{% block title %}
+  Order #{{ object.pk }}
 {% endblock %}
 
 {% block body %}
-<h1> <strong>Order  Name</strong> </h1>
+<h1> <strong>Order Details</strong> </h1>
        <div>
            <div>Delivery address:{{ object.delivery_address }}</div>
-                <div>Promocode: {{ object.promocode }}</div>
-                <div>Color:{{ object.color }}</div>
+           <div>Promocode: {{ object.promocode }}</div>
+           <div>Color:{{ object.color }}</div>
        </div>
 <div>
     <a href="{% url 'shopapp:order-list' %}"
     >Orders list</a>
-    </div>
+</div>
 <div>
-        <a href="{% url 'shopapp:update_orders' pk=object.pk %}">Update order</a>
-    </div>
-
+    <a href="{% url 'shopapp:update_orders' pk=object.pk %}">Update order</a>
+</div>
 {% endblock %}

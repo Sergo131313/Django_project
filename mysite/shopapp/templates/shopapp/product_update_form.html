@@ -1,3 +1,19 @@
+
+This HTML template is used to update an existing product in the shop application.
+
+Description:
+    - It defines a block for the title, indicating that the page is for updating a product.
+    - Within the body block, it displays a heading indicating the action of updating a product.
+    - It includes a form with the necessary fields for updating a product, such as name, description, price, etc.
+    - The form uses the POST method to submit the updated data, and enctype="multipart/form-data" is specified for handling file uploads.
+    - It includes a CSRF token for security.
+    - It provides a submit button for updating the product.
+    - It includes a link to go back to the details page of the product being updated.
+
+Note: The context variable 'form' should be passed to this template, which represents the form for updating an existing product.
+
+
+<!-- Template: shopapp/product_update.html -->
 {% block title %}
   Update product
 {% endblock %}
@@ -7,11 +23,11 @@
 <div>
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        {{form.as_p}}
+        {{ form.as_p }}
         <button type="submit">Update</button>
     </form>
 </div>
 <div>
-    <a href="{% url 'shopapp:product_details' pk=object.pk %}">Back tp product #{{ object.pk }}</a>
+    <a href="{% url 'shopapp:product_details' pk=object.pk %}">Back to product #{{ object.pk }}</a>
 </div>
 {% endblock %}

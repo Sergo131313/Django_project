@@ -1,3 +1,16 @@
+
+This HTML template is used to display a confirmation message for archiving a product in the shop application.
+
+Description:
+    - It defines a block for the title, which includes the name of the product to be archived.
+    - Within the body block, it displays a heading asking the user to confirm whether they want to archive the specified product.
+    - It provides a link to go back to the details page of the product.
+    - It includes a form with a submit button to confirm the archiving action.
+
+Note: The context variable 'object' should be passed to this template, which represents the product object to be archived. Additionally, the form displayed in the template should handle the archiving action.
+
+
+<!-- Template: shopapp/product_confirm_archive.html -->
 {% block title %}
     Confirm archive {{ object.name }}
 {% endblock %}
@@ -6,8 +19,7 @@
     <h1>Are you sure you want to archive {{ object.name }}?</h1>
     <br>
     <div>
-        <a href="{% url 'shopapp:product_details' pk=object.pk %}"
-        >Back to product</a>
+        <a href="{% url 'shopapp:product_details' pk=object.pk %}">Back to product</a>
     </div>
     <br>
     <div>

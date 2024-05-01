@@ -1,35 +1,44 @@
+
+This HTML template is used to display a list of orders in the shop application.
+
+Description:
+    - It defines a standard HTML document structure with the DOCTYPE declaration and sets the language to English.
+    - It sets the title of the page to "Orders".
+    - Inside the body of the page, it displays a heading "Orders:".
+    - It iterates over each order in the provided context variable 'order' and displays details for each order, including delivery address, promocode, and color.
+    - For each order, it creates a hyperlink to view the order details using the order's primary key (pk).
+    - It includes links to create a new order and to navigate to the products list page.
+
+Note: The context variable 'order' should be passed to this template containing a list of order objects.
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Orders</title>
-
 </head>
 <body>
   <h1>Orders:</h1>
 
-
     <div>
         {% for order in order %}
             <div>
-                 <p><a href="{% url 'shopapp:orders_details' pk=order.pk %}"
+                <p><a href="{% url 'shopapp:orders_details' pk=order.pk %}"
                 >delivery_address: {{ order.delivery_address }}</a></p>
                 <p>Promocode: {{ order.promocode }}</p>
                 <p>Color: {{ order.color }}</p>
-
-
             </div>
-
-
         {% endfor %}
-<div>
-    <a href="{% url 'shopapp:create-order' %}"
-    >Create Order</a>
-    </div>
-        <div>
-    <a href="{% url 'shopapp:products-list' %}"
-    >Go  to products list</a>
     </div>
 
+    <div>
+        <a href="{% url 'shopapp:create-order' %}"
+        >Create Order</a>
+    </div>
+    <div>
+        <a href="{% url 'shopapp:products-list' %}"
+        >Go to products list</a>
+    </div>
  </body>
 </html>

@@ -1,3 +1,20 @@
+
+"""
+This Django URL configuration defines URL patterns for user authentication and password-related views.
+
+Description:
+    - It imports necessary modules and classes from Django.
+    - It imports views from the current app and Django's built-in authentication views.
+    - It specifies an app name for URL namespaces.
+    - It defines URL patterns using the path() function.
+    - Each URL pattern is associated with a corresponding view.
+    - Views such as LoginView, RegisterView, logout_view, change_password, and AboutMeView are used for user authentication and profile management.
+    - Password-related views such as PasswordResetView, PasswordResetDoneView, PasswordResetConfirmView, and PasswordResetCompleteView are also defined.
+
+Note: This URL configuration provides endpoints for user login, registration, logout, password change, password reset, and profile management.
+
+"""
+
 from django.contrib.auth.views import LoginView, PasswordResetConfirmView, PasswordResetView, PasswordResetDoneView, \
     PasswordResetCompleteView
 from django.urls import path

@@ -1,3 +1,31 @@
+
+<!--This Django template code is used to render a login form. Below is the documentation for this code:-->
+
+<!--1. `{% block title %} Login {% endblock %}`:-->
+<!--   - This block defines the title of the page as "Login". It is used within a base template to customize the title for the login page.-->
+
+<!--2. `{% block body %}` and `{% endblock %}`:-->
+<!--   - These blocks enclose the main content of the page, allowing customization of the body content within the base template.-->
+
+<!--3. `<form method="post">`:-->
+<!--   - This `<form>` tag defines a form element that will be submitted using the POST method.-->
+<!--   - When the user submits the form, the data will be sent to the server for processing.-->
+
+<!--4. `{% csrf_token %}`:-->
+<!--   - This template tag generates a CSRF (Cross-Site Request Forgery) token, which helps prevent CSRF attacks.-->
+<!--   - It ensures that the form submission is coming from a trusted source.-->
+
+<!--5. `{{ form.as_p }}`:-->
+<!--   - This template variable renders the form fields as paragraphs (`<p>` elements).-->
+<!--   - It automatically generates HTML markup for each form field based on its type and attributes.-->
+
+<!--6. `<button type="submit">Login</button>`:-->
+<!--   - This `<button>` element represents a clickable button that submits the form data to the server.-->
+<!--   - When clicked, it triggers the form submission process.-->
+
+<!--Overall, this template code creates a login form with fields for username and password. Upon submission, the form data is sent to the server for authentication.-->
+
+
 {% block title %}
     Login
 {% endblock %}

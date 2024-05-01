@@ -1,3 +1,16 @@
+
+Template: base.html
+
+This HTML template defines the base structure for other templates in the shop application. It serves as a foundation for rendering common elements across multiple pages.
+
+Description:
+    - The template includes a title block and a body block that can be overridden by child templates.
+    - It displays the current time and date.
+    - It provides links to navigate to the products list and orders list pages.
+
+Note: The template utilizes template tags and filters provided by Django, such as {% block %}, {% url %}, and {% now %}.
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +24,8 @@
 <body>
     {% block body %}
     <h1> Base </h1>
-     {% endblock %}
-</body>
+    {% endblock %}
+
     <div>
        <h4>Time:{% now 'H:i:s' %}</h4>
        {% now 'l' as current_weekday %}
@@ -20,14 +33,13 @@
        {% now 'Y' as current_year %}
        {% now 'd' as current_day%}
        <h4>  Today is   {{current_day}}/{{current_month}}/{{current_year}}:{{current_weekday}}:</h4>
-   </div>
-        <div>
-    <a href="{% url 'shopapp:products-list' %}"
-    >Go  to products list</a>
-    </div>
-<div>
-    <a href="{% url 'shopapp:order-list' %}"
-    > Go to Orders list</a>
     </div>
 
+    <div>
+        <a href="{% url 'shopapp:products-list' %}">Go to products list</a>
+    </div>
+    <div>
+        <a href="{% url 'shopapp:order-list' %}">Go to Orders list</a>
+    </div>
+</body>
 </html>

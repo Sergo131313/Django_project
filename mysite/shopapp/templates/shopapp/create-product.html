@@ -1,3 +1,19 @@
+
+Template: shopapp/create_product.html
+
+This HTML template is used to create a new product in the shop application.
+
+Description:
+    - It includes a form for creating a new product, with fields such as name, price, description, color, and preview.
+    - The form is submitted via the POST method with CSRF protection.
+    - It includes a submit button to create the product.
+    - It includes a link to navigate back to the products list.
+
+Note: This template utilizes Django template tags and filters, such as {% csrf_token %}, {% static %}, and {% url %}.
+
+
+
+<!-- Template: shopapp/create_product.html -->
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -5,6 +21,7 @@
     <meta charset="UTF-8">
 
     <title>Create product</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 </head>
 <body>
@@ -15,7 +32,7 @@
         {% csrf_token %}
 
         {{ form.as_p }}
-        <input class=" input--submitButton" type="submit" value="Create">
+        <input class="input--submitButton" type="submit" value="Create">
 
 
     </form>

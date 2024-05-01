@@ -1,3 +1,17 @@
+
+This HTML template is used to update an existing order in the shop application.
+
+Description:
+    - It extends the base template 'shopapp/base.html'.
+    - It defines a block for the title, which simply states "Update Order".
+    - Within the body block, it displays a form to update the order details.
+    - The form includes fields for the order details and a submit button.
+    - It includes a hyperlink to navigate back to the details of the order being updated.
+
+Note: The context variables 'form' and 'object' should be passed to this template. The 'form' variable represents the form used to update the order, and 'object' represents the order object being updated.
+
+
+<!-- Template: shopapp/order_update.html -->
 {% block title %}
   Update Order
 {% endblock %}
@@ -7,7 +21,7 @@
 <div>
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        {{form.as_p}}
+        {{ form.as_p }}
         <button type="submit">Update</button>
     </form>
 </div>
