@@ -4,3 +4,46 @@
 2024-04-30 12:56:26,159 [INFO] in django.utils.autoreload: C:\Users\user\Desktop\Django_project\mysite\shopapp\views.py changed, reloading.
 2024-04-30 12:56:26,851 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-04-30 12:56:30,113 [WARNING] in django.request: Not Found: /ru/
+2024-05-01 11:56:58,145 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 11:57:00,897 [WARNING] in django.request: Not Found: /ru/
+2024-05-01 11:57:01,105 [WARNING] in django.request: Not Found: /ru/favicon.ico
+2024-05-01 12:01:16,746 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:01:17,463 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:01:23,182 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:01:24,053 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:01:26,533 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:01:27,240 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:01:45,418 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:01:46,093 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:02:41,990 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:02:42,573 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:03:22,838 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:03:23,621 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:03:47,064 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:03:47,676 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:04:06,708 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:04:07,410 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:04:34,323 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-01 12:04:34,961 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:05:19,435 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:05:20,356 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:06:27,558 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:06:28,183 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:07:08,591 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:07:09,180 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:07:24,268 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:07:24,900 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:08:04,211 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:08:04,855 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:08:18,910 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:08:19,524 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:08:46,221 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:08:46,849 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:09:42,738 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:09:43,338 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:09:57,263 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:09:57,967 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:13:20,954 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject2\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-01 12:13:21,914 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:13:36,923 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-01 12:13:41,588 [WARNING] in django.request: Not Found: /ru/
