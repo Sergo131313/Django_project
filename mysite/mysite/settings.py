@@ -29,11 +29,22 @@ SECRET_KEY = 'django-insecure-io%*z9@zsr!gw!)u_*(9uz3q)$gy&%94kqf!!p7e0m-g=k1)^+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+]
 
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+if DEBUG:
+    import socket
+    hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
+    INTERNAL_IPS.append('10.0.2.2')
+    INTERNAL_IPS.extend(
+        [ip[: ip.rfind('.')] + '.1' for ip in ips]
+    )
 
 # Application definition
 
@@ -176,11 +187,11 @@ USE_TZ = True
 
 USE_L10N = True
 
-LANGUAGES = (
-    ('hy', _('Armenian')),
-    ('ru', _('Russia')),
-    ('en', _('English')),
-)
+#LANGUAGES = (
+#    ('hy', _('Armenian')),
+#    ('ru', _('Russia')),
+#    ('en', _('English')),
+#)
 
 LOCALE_PATHS = [
     BASE_DIR / 'locale/'

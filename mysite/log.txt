@@ -577,3 +577,7 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argument
 2024-05-03 17:11:27,779 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-05-03 17:11:29,489 [WARNING] in django.request: Not Found: /ru/
+2024-05-03 17:22:38,243 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-03 17:22:41,302 [WARNING] in django.request: Not Found: /ru/
+2024-05-03 18:25:21,916 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-03 18:25:24,317 [WARNING] in django.request: Not Found: /ru/
