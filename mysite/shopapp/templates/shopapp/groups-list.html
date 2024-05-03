@@ -1,21 +1,3 @@
-
-Template: shopapp/groups_list.html
-
-This HTML template is used to display a list of groups along with their permissions in the shop application.
-
-Description:
-    - It extends the base template 'shopapp/base.html'.
-    - It sets the title of the page to "Groups" using the {% block title %} tag.
-    - It defines a block named 'body' to contain the main content of the page.
-    - Inside the 'body' block, it displays a heading "Groups:".
-    - It iterates over each group in the 'groups' context variable and displays its name.
-    - For each group, it iterates over its permissions and displays their names and codenames.
-    - It uses HTML unordered lists (<ul> and <li>) for better organization of the content.
-
-Note: This template relies on Django template tags and filters, such as {% extends %}, {% block %}, {% for %}, and {{ variable }}.
-
-
-<!-- Template: shopapp/groups_list.html -->
 {% extends 'shopapp/base.html' %}
 
 {% block title %}

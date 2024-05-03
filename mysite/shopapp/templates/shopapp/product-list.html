@@ -1,18 +1,3 @@
-
-This HTML template is used to display a list of products in the shop application.
-
-Description:
-    - It loads the internationalization template tags using the 'i18n' template library.
-    - It defines a block for the title, which translates the text "Products list" into the current language.
-    - Within the body block, it displays a heading for the products list.
-    - If there are products available, it displays a message indicating the number of products.
-    - It then iterates over each product and displays its details, such as name, description, price, discount, color, and preview image.
-    - It provides links to create a new product, create an order, and go to the orders list.
-
-Note: The context variable 'products' should be passed to this template, which represents a list of product objects.
-
-
-<!-- Template: shopapp/products_list.html -->
 {% load i18n %}
 
 {% block title %}

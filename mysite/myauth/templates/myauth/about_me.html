@@ -1,29 +1,3 @@
-
-<!--This Django template code renders user information on the "About Me" page. Below is the documentation for this code:-->
-
-<!--1. `{% block title %}` and `{% endblock %}`:-->
-<!--   - These block tags define the title of the page as "About me". They are used within a base template to customize the title for the "About Me" page.-->
-
-<!--2. `<h1>User info</h1>`:-->
-<!--   - This heading element (`<h1>`) displays the text "User info" as the main title of the section.-->
-<!--   - It provides a clear indication to the user about the purpose of the section.-->
-
-<!--3. `{% if user.is_authenticated %}` and `{% else %}`:-->
-<!--   - These template tags check if the user is authenticated (logged in) or anonymous.-->
-<!--   - If the user is authenticated, it displays user details such as username, first name, and last name.-->
-<!--   - If the user is anonymous, it displays a message indicating that the user is anonymous.-->
-
-<!--4. `<p>Username: {{ user.username }}</p>`, `<p>First name: {{ user.first_name }}</p>`, `<p>Last name: {{ user.last_name }}</p>`:-->
-<!--   - These paragraph elements (`<p>`) display the user's username, first name, and last name respectively.-->
-<!--   - They are conditionally rendered based on whether the user is authenticated or anonymous.-->
-
-<!--5. `<a href="{% url 'myauth:changePassword' %}"> Change password</a>`:-->
-<!--   - This anchor (`<a>`) element represents a hyperlink to the "Change password" page.-->
-<!--   - It provides a convenient way for authenticated users to navigate to the page where they can change their password.-->
-
-<!--Overall, this template code creates a section on the "About Me" page that displays user information. If the user is authenticated, their username, first name, and last name are shown. Additionally, a link to the "Change password" page is provided for authenticated users.-->
-
-
 {% block title %}
     About me
 {% endblock %}
