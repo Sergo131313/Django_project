@@ -581,3 +581,333 @@ django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argum
 2024-05-03 17:22:41,302 [WARNING] in django.request: Not Found: /ru/
 2024-05-03 18:25:21,916 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
 2024-05-03 18:25:24,317 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 14:11:29,405 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 14:11:32,529 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 14:11:32,763 [WARNING] in django.request: Not Found: /ru/favicon.ico
+2024-05-08 14:11:44,464 [WARNING] in django.request: Not Found: /ru/shop/export/
+2024-05-08 14:13:19,304 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-08 14:13:20,272 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 14:16:22,026 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\mysite\settings.py changed, reloading.
+2024-05-08 14:16:23,129 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 14:16:57,356 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 14:16:57,397 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 14:16:58,217 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:16:58,310 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:17:13,762 [WARNING] in django.request: Not Found: /ru/shop/products/export/
+2024-05-08 14:17:13,876 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:17:35,693 [WARNING] in django.request: Not Found: /ru/shop/products/export/
+2024-05-08 14:17:35,766 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:17:39,310 [WARNING] in django.request: Not Found: /ru/shop/products/export/
+2024-05-08 14:17:39,393 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:17:57,598 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:19:30,352 [WARNING] in django.request: Not Found: /ru/shop/products/export/
+2024-05-08 14:19:30,469 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:19:57,518 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:20:26,780 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 14:20:28,597 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 14:20:28,619 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 14:20:29,254 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:20:29,358 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:20:37,128 [WARNING] in django.request: Not Found: /ru/shop/products/export/
+2024-05-08 14:20:37,246 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:21:28,753 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:26:51,651 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\mysite\settings.py changed, reloading.
+2024-05-08 14:26:52,582 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 14:26:55,125 [WARNING] in django.request: Not Found: /
+2024-05-08 14:26:55,128 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 14:26:55,836 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:27:14,128 [WARNING] in django.request: Not Found: /shop/products/export/
+2024-05-08 14:27:14,253 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:27:17,057 [WARNING] in django.request: Not Found: /shop/products/export/
+2024-05-08 14:27:17,231 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:27:28,601 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\mysite\settings.py changed, reloading.
+2024-05-08 14:27:28,693 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:27:29,554 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 14:27:39,654 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 14:27:39,685 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 14:27:40,160 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:27:40,270 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:28:39,756 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:28:50,773 [WARNING] in django.request: Not Found: /ru/shop/products/export/
+2024-05-08 14:28:50,920 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:29:39,759 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:02,720 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\urls.py changed, reloading.
+2024-05-08 14:30:03,681 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 14:30:05,806 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 14:30:05,825 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 14:30:06,236 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:06,399 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:09,571 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:09,674 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:09,747 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:09,930 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:14,731 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "archived": product.archived,
+                ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 14:30:14,801 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:30:15,002 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 14:31:06,007 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:23:44,754 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (2): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 15:23:45,587 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:23:45,780 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:23:45,850 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:23:54,386 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:01,214 [ERROR] in django.request: Internal Server Error: /shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "archived": product.archived,
+                ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:24:01,245 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:01,672 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:17,318 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:20,891 [WARNING] in django.request: Not Found: /ru/shop/export/
+2024-05-08 15:24:20,927 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:21,255 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:30,022 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:38,909 [ERROR] in django.request: Internal Server Error: /en/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "archived": product.archived,
+                ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:24:38,942 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:24:39,056 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:25:30,021 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:27:34,562 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-08 15:27:35,824 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 15:27:38,107 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 15:27:38,124 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 15:27:38,747 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:27:38,848 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:27:46,837 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:27:46,826 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "is_archived": product.archived,
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:27:47,042 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:28:38,187 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:33:02,536 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:33:13,453 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "is_archived": product.archived,
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:33:13,589 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:33:13,694 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:33:13,842 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "is_archived": product.archived,
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:33:13,892 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:33:13,985 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:33:38,184 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:12,830 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "is_archived": product.archived,
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:34:12,891 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:12,994 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:27,928 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:32,907 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 15:34:34,285 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 15:34:34,308 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 15:34:34,907 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:35,002 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:39,101 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:43,406 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "is_archived": product.archived,
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:34:43,496 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:43,810 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:43,989 [WARNING] in django.request: Not Found: /ru/shop/products/export//
+2024-05-08 15:34:44,121 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:46,617 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "is_archived": product.archived,
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:34:47,097 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:47,258 [ERROR] in django.request: Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py", line 219, in get
+    "is_archived": product.archived,
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'archived'. Did you mean: 'is_archived'?
+2024-05-08 15:34:47,509 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:47,809 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:34:47,906 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:35:21,513 [INFO] in django.utils.autoreload: C:\Users\user\PycharmProjects\pythonProject\Django_project\mysite\shopapp\views.py changed, reloading.
+2024-05-08 15:35:21,608 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:35:22,445 [INFO] in django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-08 15:35:23,940 [DEBUG] in urllib3.connectionpool: Starting new HTTPS connection (1): o4507220180795392.ingest.de.sentry.io:443
+2024-05-08 15:35:23,971 [WARNING] in django.request: Not Found: /ru/
+2024-05-08 15:35:24,479 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:35:24,564 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:35:29,171 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:35:31,831 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0
+2024-05-08 15:36:13,705 [DEBUG] in urllib3.connectionpool: https://o4507220180795392.ingest.de.sentry.io:443 "POST /api/4507220186693712/envelope/ HTTP/1.1" 200 0

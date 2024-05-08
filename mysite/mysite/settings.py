@@ -16,6 +16,20 @@ import os
 
 from django.utils.translation import gettext_lazy as _
 
+import sentry_sdk
+
+sentry_sdk.init(
+    dsn="https://07523fa90e285d7fa44857767e09874f@o4507220180795392.ingest.de.sentry.io/4507220186693712",
+    # Set traces_sample_rate to 1.0 to capture 100%
+    # of transactions for performance monitoring.
+    traces_sample_rate=1.0,
+    # Set profiles_sample_rate to 1.0 to profile 100%
+    # of sampled transactions.
+    # We recommend adjusting this value in production.
+    profiles_sample_rate=1.0,
+)
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
